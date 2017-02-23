@@ -15,6 +15,13 @@
 		74197A841E5E9A2D004A2AB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74197A821E5E9A2D004A2AB3 /* LaunchScreen.storyboard */; };
 		74197A8F1E5E9A2D004A2AB3 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74197A8E1E5E9A2D004A2AB3 /* ____Tests.m */; };
 		74197A9A1E5E9A2D004A2AB3 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74197A991E5E9A2D004A2AB3 /* ____UITests.m */; };
+		74197AA91E5E9A6C004A2AB3 /* MailBoxTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74197AA81E5E9A6C004A2AB3 /* MailBoxTableViewController.m */; };
+		74197AAC1E5E9A7B004A2AB3 /* MailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74197AAB1E5E9A7B004A2AB3 /* MailTableViewController.m */; };
+		74197AB31E5E9B9B004A2AB3 /* edit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74197AAE1E5E9B9B004A2AB3 /* edit@2x.png */; };
+		74197AB41E5E9B9B004A2AB3 /* inbox@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 74197AAF1E5E9B9B004A2AB3 /* inbox@2X.png */; };
+		74197AB51E5E9B9B004A2AB3 /* send@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74197AB01E5E9B9B004A2AB3 /* send@2x.png */; };
+		74197AB61E5E9B9B004A2AB3 /* star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74197AB11E5E9B9B004A2AB3 /* star@2x.png */; };
+		74197AB71E5E9B9B004A2AB3 /* trash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74197AB21E5E9B9B004A2AB3 /* trash@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,15 @@
 		74197A951E5E9A2D004A2AB3 /* 邮箱仿写UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "邮箱仿写UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74197A991E5E9A2D004A2AB3 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		74197A9B1E5E9A2D004A2AB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74197AA71E5E9A6C004A2AB3 /* MailBoxTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MailBoxTableViewController.h; sourceTree = "<group>"; };
+		74197AA81E5E9A6C004A2AB3 /* MailBoxTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MailBoxTableViewController.m; sourceTree = "<group>"; };
+		74197AAA1E5E9A7B004A2AB3 /* MailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MailTableViewController.h; sourceTree = "<group>"; };
+		74197AAB1E5E9A7B004A2AB3 /* MailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MailTableViewController.m; sourceTree = "<group>"; };
+		74197AAE1E5E9B9B004A2AB3 /* edit@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "edit@2x.png"; sourceTree = "<group>"; };
+		74197AAF1E5E9B9B004A2AB3 /* inbox@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inbox@2X.png"; sourceTree = "<group>"; };
+		74197AB01E5E9B9B004A2AB3 /* send@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "send@2x.png"; sourceTree = "<group>"; };
+		74197AB11E5E9B9B004A2AB3 /* star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star@2x.png"; sourceTree = "<group>"; };
+		74197AB21E5E9B9B004A2AB3 /* trash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trash@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +117,15 @@
 		74197A731E5E9A2D004A2AB3 /* 邮箱仿写 */ = {
 			isa = PBXGroup;
 			children = (
+				74197AAD1E5E9B9B004A2AB3 /* MYImage */,
 				74197A771E5E9A2D004A2AB3 /* AppDelegate.h */,
 				74197A781E5E9A2D004A2AB3 /* AppDelegate.m */,
 				74197A7A1E5E9A2D004A2AB3 /* ViewController.h */,
 				74197A7B1E5E9A2D004A2AB3 /* ViewController.m */,
+				74197AA71E5E9A6C004A2AB3 /* MailBoxTableViewController.h */,
+				74197AA81E5E9A6C004A2AB3 /* MailBoxTableViewController.m */,
+				74197AAA1E5E9A7B004A2AB3 /* MailTableViewController.h */,
+				74197AAB1E5E9A7B004A2AB3 /* MailTableViewController.m */,
 				74197A7D1E5E9A2D004A2AB3 /* Main.storyboard */,
 				74197A801E5E9A2D004A2AB3 /* Assets.xcassets */,
 				74197A821E5E9A2D004A2AB3 /* LaunchScreen.storyboard */,
@@ -138,6 +159,18 @@
 				74197A9B1E5E9A2D004A2AB3 /* Info.plist */,
 			);
 			path = "邮箱仿写UITests";
+			sourceTree = "<group>";
+		};
+		74197AAD1E5E9B9B004A2AB3 /* MYImage */ = {
+			isa = PBXGroup;
+			children = (
+				74197AAE1E5E9B9B004A2AB3 /* edit@2x.png */,
+				74197AAF1E5E9B9B004A2AB3 /* inbox@2X.png */,
+				74197AB01E5E9B9B004A2AB3 /* send@2x.png */,
+				74197AB11E5E9B9B004A2AB3 /* star@2x.png */,
+				74197AB21E5E9B9B004A2AB3 /* trash@2x.png */,
+			);
+			path = MYImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,8 +276,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74197AB51E5E9B9B004A2AB3 /* send@2x.png in Resources */,
+				74197AB41E5E9B9B004A2AB3 /* inbox@2X.png in Resources */,
+				74197AB61E5E9B9B004A2AB3 /* star@2x.png in Resources */,
+				74197AB71E5E9B9B004A2AB3 /* trash@2x.png in Resources */,
 				74197A841E5E9A2D004A2AB3 /* LaunchScreen.storyboard in Resources */,
 				74197A811E5E9A2D004A2AB3 /* Assets.xcassets in Resources */,
+				74197AB31E5E9B9B004A2AB3 /* edit@2x.png in Resources */,
 				74197A7F1E5E9A2D004A2AB3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +310,8 @@
 			files = (
 				74197A7C1E5E9A2D004A2AB3 /* ViewController.m in Sources */,
 				74197A791E5E9A2D004A2AB3 /* AppDelegate.m in Sources */,
+				74197AAC1E5E9A7B004A2AB3 /* MailTableViewController.m in Sources */,
+				74197AA91E5E9A6C004A2AB3 /* MailBoxTableViewController.m in Sources */,
 				74197A761E5E9A2D004A2AB3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
